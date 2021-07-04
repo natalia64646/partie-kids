@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
+
+
+img{
+    width: 100%;
+}
+body{
+    margin: auto; 
+    background-image: url(../img/fon.jpg);
+} 
+:root{
+    font-family: 'Gravitas One', cursive;
+    font-size: 1rem;
+    --main-color: black;
+    --menu-color:rgb(255, 255, 255);
+    --h1-color: purple;
+    --mistyrose-color: rgb(226, 134, 35);
+    --fon-color: rgba(250, 239, 237, 0.966);
+    --p-color:rgba(250, 237, 220, 0.897);
+}
+header{
+    background-image: url(../img/kiddie-parties.jpg);
+    background-position: center;
+    background-size: cover ;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+h1{
+    font-family: 'Gravitas One', cursive;
+    color: var(--h1-color);
+    font-size: 1.6rem;
+    text-align: left;
+    margin: auto;
+}
+h2{
+    font-family: 'Gravitas One', cursive;
+    color: var(--mistyrose-color);
+    text-align: center; 
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.banner h2{
+    font-family: 'Rammetto One';
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--menu-color);
+    text-transform: uppercase;
+    margin-top: 16rem;
+}
+.banner p{
+    color: var(--menu-color);
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 0.2rem;
+}
+.banner button{
+    border-radius: 1rem;
+    border-color: var(--mistyrose-color);
+    background-color: var(--mistyrose-color);
+    color:var(--menu-color);
+    margin-bottom: 3rem;
+    font-size: 0.6rem; 
+    margin-left: 45%;
+}
+.about{
+    background-color: var(--fon-color);
+    margin-top: -30px; 
+}
+.about-us img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5%;
+    /* align-items: center;
+    justify-content: center; */
+}
+@media(min-width: 1000px){
+    .about-us img{
+        margin-top: 3rem;
+    }
+    main .about-us{
+        display:  grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));  
+        grid-column-gap: 30px ;
+    }
+}
+.gallery-carousel .gallery-image{
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 10%;
+}
+.products{
+    margin: auto;
+}
+.party-themes .card-text{
+    color: var(--mistyrose-color);  
+}
+.party-themes img{
+    margin-top: 1rem;
+}
+.party-themes .mini-text{
+    font-size: 0.7rem;
+}
+.bestsellers-text{
+    background-color: var(--fon-color);
+}
+.adres img{
+    width: 100%;
+    border-radius: 10%;
+}
+.adres p{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+.city{
+    font-weight: 2rem;
+}
+.book-online{
+    background-image: url(../img/book-online.jpg);
+    background-size: cover;
+}
+.form{
+    width: 18rem;
+    height: 25rem;
+    margin-top: 1rem;
+    border-radius: 8%;
+    background-color: var(--fon-color);
+    display: grid;
+    justify-items: center;
+}
+label{
+    margin-top: 0.4rem;
+    text-align: center;
+}
+input{
+    border-radius: 2rem;
+    background-color: var(--p-color);
+    width: 15rem;
+    height: 2.5rem;
+    text-align: center;
+}
+.sms{
+    height: 5rem;
+    margin-bottom: 1.6rem;
+}
+.boton-submit{
+    background-color: var(--mistyrose-color);  
+}  
+
+@media(min-width: 510px){
+    .form{
+        width: 30rem;
+        height: 36rem;
+        margin-top: 2rem;
+    }
+    label{
+        margin-top: 1rem;
+    }
+    input{
+        border-radius: 4rem;
+        width: 25rem;
+        height: 4rem;
+    }
+    .sms{
+        height: 8rem;
+        margin-bottom: 5rem;
+    }
+    .boton-submit{
+        margin-bottom: 3rem;
+    }
+    .book p{
+        font-size: 1.3rem;
+    }
+    .clock{
+        margin: auto;
+        color: var(--h1-color);   
+    }
+}
+@media(min-width: 600px){
+    .banner h2{
+        font-family: 'Rammetto One';
+        font-size: 3rem;
+        text-align: center;
+        color: var(--menu-color);
+        text-transform: uppercase;
+        margin-top: 20rem;
+    }
+    .banner p{
+        color: var(--menu-color);
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+    .banner button{
+        background-color: var(--mistyrose-color);
+        border-radius: 1rem;
+        margin-bottom: 14rem;
+        font-size: 0.9rem;
+        
+    }
+    .bestsellers-article{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        justify-items: center;
+        width: 80%;
+        margin-left: 10%;
+       
+    }
+    .bestsellers-text{
+        padding: 20px;
+        padding-bottom: 0px;
+    }
+    .gallery-carousel .gallery-image{
+        width: 75%;
+    }
+    .contacts{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        grid-column-gap: 5% ;
+    }
+    .book{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); 
+        grid-column-gap: 5% ;
+    }
+}
