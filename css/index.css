@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Merriweather:wght@300&family=Rammetto+One&display=swap');
-
-
 img{
     width: 100%;
 }
@@ -104,9 +102,7 @@ h2{
 .party-themes .mini-text{
     font-size: 0.7rem;
 }
-.bestsellers-text{
-    background-color: var(--fon-color);
-}
+
 .adres img{
     width: 100%;
     border-radius: 10%;
@@ -200,20 +196,7 @@ input{
         background-color: var(--mistyrose-color);
         border-radius: 1rem;
         margin-bottom: 14rem;
-        font-size: 0.9rem;
-        
-    }
-    .bestsellers-article{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
-        justify-items: center;
-        width: 80%;
-        margin-left: 10%;
-       
-    }
-    .bestsellers-text{
-        padding: 20px;
-        padding-bottom: 0px;
+        font-size: 0.9rem;  
     }
     .gallery-carousel .gallery-image{
         width: 75%;
@@ -229,3 +212,41 @@ input{
         grid-column-gap: 5% ;
     }
 }
+.bestsellers-text{
+    background-color: var(--fon-color);
+    margin-top: -5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+@media(min-width: 600px){
+    .bestsellers-article{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+        justify-items: center; 
+        margin-bottom: 1rem;
+    }
+    .bestsellers-text{
+        padding: 20px;
+    }
+}
+@media(min-width: 992px){
+    .bestsellers-text{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 0;
+    }
+}
+@media(min-width: 1200px){
+    .bestsellers-article{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+}
+
