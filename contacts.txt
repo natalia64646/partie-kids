@@ -1,0 +1,7 @@
+{"name":"Степан","number":"0668257937","email":"Zayatsstepan7@gmail.com","message":"gfd"}
+{"name":"Степан","number":"0668257937","email":"Zayatsstepan7@gmail.com","message":"gfd"}
+{"name":"Степан","number":"0668257937","email":"Zayatsstepan7@gmail.com","message":"gfd"}
+{"name":"Степан","number":"0668257937","email":"Zayatsstepan7@gmail.com","message":"gfd"}
+{"name":"Степан","number":"0668257937","email":"Zayatsstepan7@gmail.com","message":"gfd"}
+{"name":"Степан","number":"0668257937","email":"Zayatsstepan7@gmail.com","message":""}
+{"name":"Степан","number":"0668257937","email":"Zayatsstepan7@gmail.com","message":"ПРивіт!!"}
