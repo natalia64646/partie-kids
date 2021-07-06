@@ -5,6 +5,9 @@ img{
 body{
     margin: auto; 
     background-image: url(../img/fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 } 
 :root{
     font-family: 'Gravitas One', cursive;
